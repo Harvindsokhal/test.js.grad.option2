@@ -37,5 +37,9 @@
       "eslint --cache --fix"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.21.1",
+    "check-types": "^11.1.2",
+    "node-fetch": "^2.6.1"
+  }
 }
