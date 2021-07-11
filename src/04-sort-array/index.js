@@ -19,7 +19,7 @@ module.exports = function sortArray(arr) {
     if (check.emptyArray(arr)) { 
         return [] 
     } else if (!check.array.of.integer(arr)) {
-        throw TypeError('Input is not integer') ;
+        throw TypeError('Array does not contain only integers') ;
     } else {
         arr.sort(function(a, b) {
             return a - b;
